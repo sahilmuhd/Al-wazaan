@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu | Al-Wazaan Restaurant — Biriyani, Kerala Food, Arabic Grills, Juices, Nizwa</title>
+<meta name="description" content="Browse the full Al-Wazaan menu: Kerala meals, biriyani, charcoal grills, Arabic shawarma, burgers, Chinese cuisine, fresh juices and coffee. Order instantly on WhatsApp.">
+<meta name="keywords" content="Al-Wazaan menu, biriyani Nizwa price, Kerala food menu Oman, Arabic shawarma menu, fresh juice menu Nizwa, grilled chicken menu Oman, burger menu Nizwa">
+<link rel="canonical" href="https://www.alwazaan-oman.com/menu.html">
+<meta property="og:title" content="Al-Wazaan Menu — Kerala, Arabic, Grills & Juices">
+<meta property="og:description" content="150+ dishes: biriyani, grills, shawarma, burgers, fresh juices, coffee and more.">
+<meta property="og:image" content="assets/img/menu/menu-p9.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/img/logo.png" type="image/png">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/pages.css">
+</head>
+<body>
+
+<div id="preloader">
+  <div class="preloader-logo"><img src="assets/img/logo.png" alt="Al-Wazaan logo loading"></div>
+  <div class="preloader-text">AL-<em>WAZAAN</em></div>
+  <div class="preloader-bar"><div class="preloader-bar-inner"></div></div>
+</div>
+
+<header id="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo-wrap">
+      <div class="logo-icon"><img src="assets/img/logo.png" alt="Al-Wazaan Restaurant and Coffee Shop logo"></div>
+      <div><div class="logo-text-name">AL-<em>WAZAAN</em></div><div class="logo-text-sub">Restaurant &amp; Coffee Shop</div></div>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html" class="active">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="delivery.html">Delivery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="tel:+96825431698" class="header-cta">📞 Call Now</a>
+    <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="menu.html" class="active">Menu</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="delivery.html">Delivery</a>
+    <a href="contact.html">Contact</a>
+    <a href="tel:+96825431698" style="color:var(--color-gold);">📞 2543 1698</a>
+    <a href="https://wa.me/96896149264" target="_blank" rel="noopener" style="color:#25D366;">💬 WhatsApp Order</a>
+  </div>
+</header>
+
+<section class="page-hero" style="background:linear-gradient(135deg, var(--color-roasted-brown), var(--color-charcoal));">
+  <div class="breadcrumb"><a href="index.html">Home</a> / Menu</div>
+  <h1>Our Full Menu</h1>
+  <p>150+ dishes across Kerala, Arabic, Chinese &amp; fast food cuisines. Tap to order on WhatsApp.</p>
+</section>
+
+<!-- Search & Filters -->
+<div class="menu-controls">
+  <div class="menu-controls-inner">
+    <div class="menu-search">
+      🔍 <input type="text" id="menuSearch" placeholder="Search dishes — e.g. biriyani, juice, shawarma...">
+    </div>
+    <div class="menu-cat-filters" id="menuFilters"></div>
+  </div>
+</div>
+
+<!-- Searchable menu grid -->
+<section style="background:var(--color-cream); padding-top:3rem;">
+  <div class="section-inner" id="menuContent"></div>
+</section>
+
+<!-- Official photographed menu pages -->
+<section style="background:var(--color-cream-deep);">
+  <div class="section-inner">
+    <div class="section-header center reveal">
+      <div class="section-label">Browse Visually</div>
+      <h2 class="section-title">Our Official Menu Pages</h2>
+      <p class="section-desc">Prefer to browse like a printed menu? Tap any page to view it full-size.</p>
+    </div>
+    <div class="menu-photo-grid reveal">
+      <div class="menu-photo-item" onclick="openLightbox('assets/img/menu/menu-p1.jpg','Kerala breakfast menu page')"><img src="assets/img/menu/menu-p1.jpg" alt="Al-Wazaan Kerala breakfast and Arabic breakfast menu page" loading="lazy"><div class="menu-photo-label">Kerala &amp; Arabic Breakfast</div></div>
+      <div class="menu-photo-item" onclick="openLightbox('assets/img/menu/menu-p2.jpg','Fresh juice menu page')"><img src="assets/img/menu/menu-p2.jpg" alt="Al-Wazaan fresh juice and special juice menu page" loading="lazy"><div class="menu-photo-label">Fresh &amp; Special Juices</div></div>
+      <div class="menu-photo-item" onclick="openLightbox('assets/img/menu/menu-p3.jpg','Roob crush mojito menu page')"><img src="assets/img/menu/menu-p3.jpg" alt="Al-Wazaan Roob, crush and passion special menu page" loading="lazy"><div class="menu-photo-label">Roob, Crush &amp; Passion</div></div>
+      <div class="menu-photo-item" onclick="openLightbox('assets/img/menu/menu-p4.jpg','Hot drinks and snacks menu page')"><img src="assets/img/menu/menu-p4.jpg" alt="Al-Wazaan hot drinks, snacks and poratta sandwich menu page" loading="lazy"><div class="menu-photo-label">Hot Drinks &amp; Snacks</div></div>
+      <div class="menu-photo-item" onclick="openLightbox('assets/img/menu/menu-p5.jpg','Kerala meals menu page')"><img src="assets/img/menu/menu-p5.jpg" alt="Al-Wazaan Kerala meals, mojito and dessert special menu page" loading="lazy"><div class="menu-photo-label">Kerala Meals &amp; Desserts</div></div>
+      <div class="menu-photo-item" onclick="openLightbox('assets/img/menu/menu-p6.jpg','Grilled and biriyani menu page')"><img src="assets/img/menu/menu-p6.jpg" alt="Al-Wazaan grilled and Kerala special biriyani menu page" loading="lazy"><div class="menu-photo-label">Grills &amp; Biriyani</div></div>
+      <div class="menu-photo-item" onclick="openLightbox('assets/img/menu/menu-p7.jpg','Fried rice and Arabic plates menu page')"><img src="assets/img/menu/menu-p7.jpg" alt="Al-Wazaan fried rice, noodles and Arabic plate menu page" loading="lazy"><div class="menu-photo-label">Fried Rice &amp; Arabic Plates</div></div>
+      <div class="menu-photo-item" onclick="openLightbox('assets/img/menu/menu-p8.jpg','Beef chicken mutton menu page')"><img src="assets/img/menu/menu-p8.jpg" alt="Al-Wazaan beef, chicken, mutton and Chinese cuisine menu page" loading="lazy"><div class="menu-photo-label">Beef, Chicken &amp; Chinese</div></div>
+      <div class="menu-photo-item" onclick="openLightbox('assets/img/menu/menu-p9.jpg','Kadai and burger menu page')"><img src="assets/img/menu/menu-p9.jpg" alt="Al-Wazaan kadai, masala special and burger menu page" loading="lazy"><div class="menu-photo-label">Kadai &amp; Burgers</div></div>
+      <div class="menu-photo-item" onclick="openLightbox('assets/img/menu/menu-p10.jpg','Wrap and combo menu page')"><img src="assets/img/menu/menu-p10.jpg" alt="Al-Wazaan wrap, plate special and combo sandwich menu page" loading="lazy"><div class="menu-photo-label">Wraps &amp; Combos</div></div>
+      <div class="menu-photo-item" onclick="openLightbox('assets/img/menu/menu-p11.jpg','Club sandwich and Italian menu page')"><img src="assets/img/menu/menu-p11.jpg" alt="Al-Wazaan club sandwich and Italian sandwich menu page" loading="lazy"><div class="menu-photo-label">Club &amp; Italian Sandwiches</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section style="background:linear-gradient(135deg, var(--color-burnt-orange), var(--color-roasted-brown)); text-align:center;">
+  <div class="section-inner reveal" style="max-width:600px;">
+    <h2 class="section-title" style="color:#fff;">Ready To Order?</h2>
+    <p style="color:rgba(255,255,255,0.88); margin-bottom:1.75rem;">Message us your order on WhatsApp and we'll have it ready fast — free delivery, 24 hours a day.</p>
+    <div class="hero-actions" style="justify-content:center;">
+      <a href="https://wa.me/96896149264" target="_blank" rel="noopener" class="btn btn-primary">💬 Order on WhatsApp</a>
+      <a href="tel:+96825431698" class="btn btn-gold">📞 2543 1698</a>
+    </div>
+  </div>
+</section>
+
+<footer id="site-footer">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-logo"><img src="assets/img/logo.png" alt="Al-Wazaan logo"><span class="footer-logo-text">AL-WAZAAN</span></div>
+      <p class="footer-desc">Restaurant &amp; Coffee Shop in Firq, Nizwa — serving authentic Kerala &amp; Arabic cuisine with free 24-hour home delivery.</p>
+      <div class="footer-social">
+        <a href="https://wa.me/96896149264" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+        <a href="#" aria-label="Instagram">📷</a>
+        <a href="#" aria-label="Facebook">📘</a>
+      </div>
+    </div>
+    <div class="footer-col"><h4>Explore</h4><a href="about.html">About Us</a><a href="menu.html">Our Menu</a><a href="gallery.html">Gallery</a><a href="delivery.html">Delivery</a><a href="contact.html">Contact</a></div>
+    <div class="footer-col"><h4>Popular Categories</h4><a href="menu.html#cat-biriyani">Biriyani</a><a href="menu.html#cat-grilled">Grills</a><a href="menu.html#cat-juice">Fresh Juices</a><a href="menu.html#cat-hot-drinks">Coffee &amp; Tea</a></div>
+    <div class="footer-col"><h4>Contact</h4><a href="tel:+96825431698">📞 2543 1698</a><a href="https://wa.me/96896149264" target="_blank" rel="noopener">💬 9614 9264</a><a href="contact.html">📍 Near Muscat Bank, Firq, Nizwa</a><a href="#">🕐 Open 24 Hours</a></div>
+  </div>
+  <div class="footer-bottom"><span>© 2026 Al-Wazaan Restaurant &amp; Coffee Shop. All rights reserved.</span><span>Sultanate of Oman</span></div>
+</footer>
+
+<a href="https://wa.me/96896149264" target="_blank" rel="noopener" class="wa-float" aria-label="Order on WhatsApp">💬</a>
+<div class="mobile-bar">
+  <div class="mobile-bar-inner">
+    <a href="index.html"><span class="mb-icon">🏠</span>Home</a>
+    <a href="menu.html" class="active"><span class="mb-icon">📋</span>Menu</a>
+    <a href="tel:+96825431698"><span class="mb-icon">📞</span>Call</a>
+    <a href="https://wa.me/96896149264" target="_blank" rel="noopener"><span class="mb-icon">💬</span>WhatsApp</a>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<div class="lightbox" id="lightbox" onclick="if(event.target===this) closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close">&times;</button>
+  <img src="" alt="">
+</div>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/menu-data.js"></script>
+<script src="assets/js/menu-render.js"></script>
+</body>
+</html>
